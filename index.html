@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Demo Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body style="background-color:rgb(255, 255, 255);">
-<h1 style="background-color:rgb(36, 240, 179);text-align: center; border-style:solid;border-radius: 10px; color: rgb(10, 73, 124);">&nbspThis is a heading</h1>
-<p style="color: rgb(235, 17, 17);font-size: 25px;">This is a paragraph.</p>
-<a href="www.google.com">Hyperlink</a> <br><br>
-<img src="/Users/sakhwathosan/Desktop/Spring22/Routine.png" alt="image" height="320" width="230">
-<p title="title test">TEST TEST</p>
-<pre>
-    My Bonnie lies over the ocean.
-  
-    My Bonnie lies over the sea.
-  
-    My Bonnie lies over the ocean.
-  
-    Oh, bring back my Bonnie to me.
-  </pre>
-  <h1 style="background-color:rgb(36, 240, 179);text-align: center; border-style:solid;border-radius: 10px; color: rgb(10, 73, 124);">Table</h1>
-  <table border="1px">
-    
-    <caption>TEST</caption>
-      <tr>
-        <th>Company</th>
-        <th>Contact</th>
-        <th>Country</th>
-      </tr>
-      <tr>
-        <td>Alfreds Futterkiste</td>
-        <td>Maria Anders</td>
-        <td>Germany</td>
-      </tr>
-    </table>
+<body>
 
+    <header>
+        <div class="container">
+       <nav class="flex items-center justify-between">
+           <div class="left flex items-center">
+               <div class="branding">
+                   <img src="./images/logo.png" alt="">
+               </div>
+               <div>
+                   <a href="#">Home</a>
+                   <a href="#">About</a>
+                   <a href="#">Services</a>
+                   <a href="#">Pages</a>
+                   <a href="#">Blog</a>
+               </div>
+           </div>
+           <div class="right">
+               <button class="btn btn-primary">HIRE ME</button>
+           </div>
+       </nav>
+       <div class="hero flex items-center justify-between">
+           <div class="left flex-1 flex justify-center">
+               <img src="./images/man.png" alt="">
+           </div>
+           <div class="right flex-1">
+               <h6>Hi, This is Sakhwat Hosan</h6>
+               <h1>I'm a Creative <br><span>Designer</span></h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, quibusdam quae harum at voluptas ea laborum fuga repellendus iure. Modi consequuntur ducimus accusantium voluptatem doloribus labore consequatur iure dicta quas.</p>
+               <div>
+                <button class="btn btn-second">DOWNLOAD CV</button>
+               </div>
+           </div>
+       </div>
+    </div>
+    </header>
+    
 </body>
 </html>

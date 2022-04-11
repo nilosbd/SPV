@@ -135,7 +135,7 @@ section.about .social a:hover{
 section.about .social a img{
    width: 100%;
    height: 100%
-   padding: 0.5em;
+   padding: 0.5rem;
 }
 
 .section-heading{
@@ -303,4 +303,33 @@ Section.work .card-wrapper .card .overlay a{
 
 Section.work .card-wrapper .card:hover .overlay{
     opacity: 1;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links .fa {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #009688;
+    margin: 40px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.social-links .fa:hover {
+    background: #009688;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.social-links p {
+    font-size: 12px;
+    margin-top: 20px;
+
 }
